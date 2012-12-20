@@ -12,6 +12,7 @@
 		96231AEF1682C0F10009579B /* JWCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 96231AEE1682C0F10009579B /* JWCategories.m */; };
 		96231AF71682C4780009579B /* UIViewController+JWUniversal.m in Sources */ = {isa = PBXBuildFile; fileRef = 96231AF61682C4780009579B /* UIViewController+JWUniversal.m */; };
 		96231AF91682C5420009579B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231AF81682C5420009579B /* UIKit.framework */; };
+		96231AFC1682C7EA0009579B /* NSObject+JWTypeSafeCasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 96231AFB1682C7EA0009579B /* NSObject+JWTypeSafeCasting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		96231AF51682C4780009579B /* UIViewController+JWUniversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JWUniversal.h"; sourceTree = "<group>"; };
 		96231AF61682C4780009579B /* UIViewController+JWUniversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JWUniversal.m"; sourceTree = "<group>"; };
 		96231AF81682C5420009579B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96231AFA1682C7EA0009579B /* NSObject+JWTypeSafeCasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JWTypeSafeCasting.h"; sourceTree = "<group>"; };
+		96231AFB1682C7EA0009579B /* NSObject+JWTypeSafeCasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JWTypeSafeCasting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +83,13 @@
 		96231AE91682C0F10009579B /* JWCategories */ = {
 			isa = PBXGroup;
 			children = (
+				96231AEA1682C0F10009579B /* Supporting Files */,
 				96231AEC1682C0F10009579B /* JWCategories.h */,
 				96231AEE1682C0F10009579B /* JWCategories.m */,
-				96231AEA1682C0F10009579B /* Supporting Files */,
 				96231AF51682C4780009579B /* UIViewController+JWUniversal.h */,
 				96231AF61682C4780009579B /* UIViewController+JWUniversal.m */,
+				96231AFA1682C7EA0009579B /* NSObject+JWTypeSafeCasting.h */,
+				96231AFB1682C7EA0009579B /* NSObject+JWTypeSafeCasting.m */,
 			);
 			path = JWCategories;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			files = (
 				96231AEF1682C0F10009579B /* JWCategories.m in Sources */,
 				96231AF71682C4780009579B /* UIViewController+JWUniversal.m in Sources */,
+				96231AFC1682C7EA0009579B /* NSObject+JWTypeSafeCasting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
