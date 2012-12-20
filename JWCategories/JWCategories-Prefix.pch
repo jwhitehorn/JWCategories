@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'JWCategories' target in the 'JWCategories' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
